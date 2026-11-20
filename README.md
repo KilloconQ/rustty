@@ -16,3 +16,7 @@ cargo run --release
 Config lives in `~/.config/rustty/config.toml` (created on first run). Set `theme = "dracula"` to pick a built-in theme, or drop your own in `~/.config/rustty/themes/<name>.toml`.
 
 Optional: `source shell/rustty.zsh` last in `~/.zshrc` to enable command-block navigation.
+
+## License
+
+MIT
