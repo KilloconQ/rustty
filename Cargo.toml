@@ -1,0 +1,12 @@
+[package]
+name = "rustty"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alacritty_terminal = "0.26.0"
+dirs = "7.0.0"
+eframe = { version = "0.37.0", default-features = false, features = ["wgpu", "default_fonts", "wayland", "x11", "clipboard"] }
+notify = "8.2.2"
+serde = { version = "1.0.229", features = ["derive"] }
+toml = "1.2.1"
